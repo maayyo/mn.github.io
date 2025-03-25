@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url('../bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    font-size: 2.5rem;
+  }
+  
+  header small {
+    display: block;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #ddd;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: darkgreen;
+  }
+  
