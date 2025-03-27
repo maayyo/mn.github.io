@@ -1,54 +1,76 @@
+<!-- css/style.css -->
 body {
-    margin: 0;
-    font-family: sans-serif;
-    background: url('../bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-  }
-  
-  header {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    text-align: center;
-    padding: 2rem 1rem 1rem;
-    font-size: 2.5rem;
-  }
-  
-  header small {
-    display: block;
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    color: #ddd;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 1rem;
-    font-weight: bold;
-    font-size: 1.1rem;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: green;
-    text-decoration: underline;
-  }
-  
-  .overlay {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 800px;
-    border-radius: 10px;
-  }
-  
-  h2 {
-    color: darkgreen;
-  }
-  
+  margin: 0;
+  font-family: 'Noto Serif JP', serif;
+  background: url('../bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  font-size: 2.5rem;
+}
+
+header small {
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.article-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.article-card h2 {
+  margin-top: 0;
+  color: darkgreen;
+}
+
+.article-card p.date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.article-card img.article-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
