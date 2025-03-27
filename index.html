@@ -1,22 +1,21 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>サボテンの日記</title>
+  <title>サボテンの冒険記</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    🌵 サボテンの日記
+    🌵 サボテンの冒険記
     <small>スカイリム飯・中国語・プログラミングの日々</small>
   </header>
-
   <nav>
     <a href="skyrim.html">スカイリム飯</a>
     <a href="chinese.html">中国語</a>
     <a href="programming.html">プログラミング</a>
   </nav>
-
   <div class="overlay">
     <h2>ようこそ！</h2>
     <p>ここは私の趣味と学びを記録するブログサイトです。<br>
@@ -24,4 +23,84 @@
   </div>
 </body>
 </html>
+
+<!-- css/style.css -->
+body {
+  margin: 0;
+  font-family: 'Noto Serif JP', serif;
+  background: url('../bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  font-size: 2.5rem;
+}
+
+header small {
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.article-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.article-card h2 {
+  margin-top: 0;
+  color: darkgreen;
+}
+
+.article-card p.date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.article-card img.article-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* その他ページ共通設定（chinese, programming なども同様） */
+
 
